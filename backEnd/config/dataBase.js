@@ -1,15 +1,15 @@
 import {Sequelize} from 'sequelize';
 
 const conexion = new Sequelize(
-    'compas',
+    'railway',
     'postgres',
-    '8742',
+    '6e2BE*b6BE3BffbA*-fAe1AFD1BGa5B6',
     {
-        host: 'localhost',
-        port: 5432,
+        host: 'viaduct.proxy.rlwy.net',
+        port: 21584,
         dialect: 'postgres',
 
     }
 );
 
-export default conexion;
+export default conexion; 

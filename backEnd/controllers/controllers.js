@@ -8,12 +8,10 @@ export async function data (req,res) {
     let consulta = await llamado.datos.findAll();
     res.json(consulta);
 }
+export async function usuarios (req,res) {
+    let consulta = await llamado.usuarios.findAll();
+    res.json(consulta);
+}
 
-export function hola (req,res) {
-    res.send("como estas");
-}
-export function adios (req,res) {
-    res.send("chao");
-}
 
 export default llamado

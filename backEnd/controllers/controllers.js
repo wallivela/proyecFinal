@@ -12,6 +12,4 @@ export async function usuarios (req,res) {
     let consulta = await llamado.usuarios.findAll();
     res.json(consulta);
 }
-
-
 export default llamado
